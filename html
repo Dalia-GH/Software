@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Store</title>
+    <link rel="stylesheet" href="css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cake Store</h1>
+    
+        <div id="cake-list">
+            <!-- Cakes will be displayed here -->
+        </div>
+        <button onclick="showAddCakeForm()">Add New Cake</button>
+
+        <div id="add-cake-form" class="form-container" style="display: none;">
+            <h2>Add a New Cake</h2>
+            <label for="cake-name">Name:</label>
+            <input type="text" id="cake-name"><br>
+            <label for="cake-price">Price:</label>
+            <input type="number" id="cake-price"><br>
+            <label for="cake-description">Description:</label>
+            <textarea id="cake-description"></textarea><br>
+            <button onclick="addCake()">Add Cake</button>
+            <button onclick="hideAddCakeForm()">Cancel</button>
+        </div>
+    </div>
+
+    <script src="js"></script>
+</body>
+</html>

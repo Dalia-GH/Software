@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 224, 245);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+#cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.cake {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: left; 
+    color: #803b3b;
+}
+
+.cake h3 {
+    margin: 0;
+    color: rgb(73, 15, 28);
+}
+
+.cake p {
+    margin: 5px 0;
+}
